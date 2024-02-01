@@ -1,8 +1,9 @@
 # hcsubscriptions
 Sample project to demonstrate interface subscriptions issue
 
+1. Run the project and visit https://localhost:7015/graphql/
 
-1. Subscribe to `BookUpdated` with the follwing arguments.
+2. Subscribe to `BookUpdated` with the follwing arguments.
 
 ```gql
 
@@ -27,7 +28,7 @@ subscription BookUpdated {
 
 ```
 
-2. Run  `AddPagesBook` with the follwing arguments.
+3. Run  `AddPagesBook` with the follwing arguments.
 
 ```gql
 
@@ -45,7 +46,7 @@ mutation AddPagesBook {
 
 ```
 
-3.  Run  `AddAnotherBook`  with the follwing arguments which throws an exeption.
+4.  Run  `AddAnotherBook`  with the follwing arguments which throws an exeption.
    
    The exception can occur in either `AddPagesBook` or `AddAnotherBook` mutation depending on which id value is passed to `BookUpdated` subscription.
 
