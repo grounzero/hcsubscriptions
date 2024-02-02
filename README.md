@@ -3,7 +3,7 @@ Sample project to demonstrate interface subscriptions issue
 
 1. Run the project and visit https://localhost:7015/graphql/
 
-2. Subscribe to `BookUpdated` with the follwing arguments:
+2. Subscribe to `BookUpdated` with the following arguments:
 
 ```gql
 
