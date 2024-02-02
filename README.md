@@ -49,7 +49,10 @@ mutation AddPagesBook {
 4.  Run  `AddAnotherBook`  with the following arguments which throws an exception that can occur in either the `AddPagesBook` or `AddAnotherBook` mutation depending on which id value is passed to the `BookUpdated` subscription.
 
 ```
-InvalidMessageTypeException: 'The topic already exists with a different message type. Topic message type: hcsubscriptions.Types.Book. Requested message type: hcsubscriptions.Types.AnotherBook.'
+InvalidMessageTypeException:
+'The topic already exists with a different message type.
+Topic message type: hcsubscriptions.Types.Book.
+Requested message type: hcsubscriptions.Types.AnotherBook.'
 
 ```
 ```gql
